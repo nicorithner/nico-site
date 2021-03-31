@@ -1,5 +1,5 @@
 import React from "react"
-import Thumbnail from '../../Thumbnail.js'; // Import the Thumbnail component
+import Thumbnail from '../thumbnail/Thumbnail.js'; 
 import '../../App.css';
  
 function Projects(props) {
