@@ -1,15 +1,15 @@
 import React from "react"
 import Thumbnail from '../thumbnail/Thumbnail.js'; 
-import { projects } from '../../projectList.js';
 import '../../App.css';
  
 function Projects(props) {
 
   let displayProjects = () => {
-    return projects.map((project, i) => {
+    return props.projectlist.map((project, i) => {
       return (
         <Thumbnail
           key={i}
+          id={project.id}
           title={project.title}
           link={project.link}
           category={project.category}
