@@ -69,4 +69,11 @@ a:link, a:visited {
 	.nav-icon {
 		display: flex;
 	}
+
+  .nav-logo {
+  	text-decoration: none;
+  	color: white;
+    text-align: left;
+    font-size: .75em;
+  }
 }
