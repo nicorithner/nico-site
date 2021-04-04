@@ -13,6 +13,10 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <div className="navbar">
+          <Navigation />
+        </div>
+    
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" render= { () => <Projects projectlist={projects}/> } />
         <Route path="/projects/:id" render={({ match }) => { 
@@ -25,9 +29,6 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
     
-        <div className="navigation">
-          <Navigation />
-        </div>
       </div>
     </BrowserRouter>    
   );

@@ -1,15 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import './Navigation.css';
 
 function Navigation() {
+  const [open, setOpen] = useState(false);
+
+	const handleClick = () => {
+		setOpen(!open);
+	};
+
+	const closeMenu = () => {
+		setOpen(false);
+	};
+
   return (
-    <div className="navigation-sub">
-      <Link to="/" className="item">Home</Link>
-      <Link to="/projects" className="item">Projects</Link>
-      <Link to="/contact" className="item">Contact</Link>
-      <Link to="/about" className="item">About</Link>
-  
-    </div>
+    <nav className="navbar">
+      <Link to="/" className="nav-logo">
+        <h1> Nico Rithner</h1>
+        <h5> Software Development </h5>
+			</Link>
+			<div onClick={handleClick} className="nav-icon">
+				{open ? <FiX /> : <FiMenu />}
+			</div>
+			<ul className={open ? 'nav-links active' : 'nav-links'}>
+				<li className="nav-item">
+					<Link to="/" className="nav-link" onClick={closeMenu}>
+						Home
+					</Link>
+				</li>
+				<li className="nav-item">
+					<Link to="/projects" className="nav-link" onClick={closeMenu}>
+						Projects
+					</Link>
+				</li>
+				<li className="nav-item">
+					<Link to="/contact" className="nav-link" onClick={closeMenu}>
+						Contact
+					</Link>
+				</li>
+				<li className="nav-item">
+					<Link to="/about" className="nav-link" onClick={closeMenu}>
+						About
+					</Link>
+				</li>
+			</ul>
+		</nav>
   );
 }
 
