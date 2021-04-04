@@ -17,7 +17,8 @@ function Navigation() {
   return (
     <nav className="navbar">
       <Link to="/" className="nav-logo">
-        Nico Rithner
+        <h1> Nico Rithner</h1>
+        <h5> Software Development </h5>
 			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
