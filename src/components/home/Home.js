@@ -1,16 +1,16 @@
 import React from "react"
+import './Home.css'
+
 function Home(props) {
   return (
-    <div className="home-container">
-      <div className="headline">
-        <h1>Nico Rithner</h1>
-        <h2>Software Developer</h2>
-      </div>
-
+   <div className="hero-container">
+     <div className="hero-heading">
+      <h1> My Software Development Journey</h1>
+     </div>
       <div className="hero-image">
-        <img src={ './images/nico.png' } className="nico" alt="Nico face" />
+          <img src={ './images/nico-no-bg.png' } alt="Nico face" />
       </div>
-    </div>
+   </div>
   )
 }
  

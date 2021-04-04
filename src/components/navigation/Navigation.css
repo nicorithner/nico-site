@@ -23,14 +23,14 @@
 	list-style: none;
 }
 
-.nav-link {
+a:link, a:visited {
 	text-decoration: none;
 	color: white;
 	transition: 0.3s all;
 }
 
 .nav-link:hover {
-	color: red;
+	color: #f4af1b;
 }
 
 .nav-icon {
@@ -41,7 +41,7 @@
 
 /*---------- Media Queries ------- */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
 	.navbar {
 		position: relative;
 	}
@@ -69,4 +69,11 @@
 	.nav-icon {
 		display: flex;
 	}
+
+  .nav-logo {
+  	text-decoration: none;
+  	color: white;
+    text-align: left;
+    font-size: .75em;
+  }
 }
