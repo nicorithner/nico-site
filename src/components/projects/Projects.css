@@ -1,0 +1,11 @@
+.projects h1 { padding: 2rem; }
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
