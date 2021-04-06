@@ -1,5 +1,4 @@
 .hero-container {
-  /*background-image: url('./images/nico-no-bg.png');*/
   display: flex;
   object-fit: cover;
   align-items: center;
@@ -8,7 +7,7 @@
   margin-top: 0;
   margin-bottom: 0;
   padding: 5rem;
-  height: 100hv;
+  height: 100%;
   width: 100%;
 }
 
@@ -21,7 +20,7 @@
 /*--------------- Media Queries -----------*/
 /*-----------------------------------------*/
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 1024px) {
   .hero-container {
     height: 100%;
   }
@@ -38,27 +37,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem 1rem;
+    padding: 3rem 1rem;
     width: 100%;
   }
 
-  .hero-image {
+  .hero-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0 1em;
+    margin-left: 50%;
+    margin-right: 50%;
     margin-top: 3rem;
   }
 
+  .hero-image {
+    margin-top: 2rem;
+  }
+
   .hero-image img {
-    border-radius: 50%;
-    width: 80%;
+    width: 150%;
     height: auto;
   }
 
-  .hero-heading {
-    width: 80%;
-    text-align: center;
-    font-size: 1rem;
-    margin-left: 50%;
-    margin-right: 50%;
-    margin-top: -3rem;
-    margin-bottom: 3rem;
-  }
 }
