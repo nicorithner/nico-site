@@ -25,7 +25,7 @@ const projectCards = displayProjects();
 return (
   <div className="projects">
 
-    <h1>Projects</h1>
+    <div className="header"><h1>Projects</h1></div>
 
     <div className="card-container">
       {projectCards}
