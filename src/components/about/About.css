@@ -1,0 +1,67 @@
+.headshot img {
+  margin-top: 5em;
+  margin-bottom: -2em;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.heading h2 { margin-top: -1em; }
+
+.description {
+  width: 100%;
+  padding: 2em 5em 3em 5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.description p {
+  padding: .5em 0;
+}
+
+.skills-section { 
+  background: #2b373d;
+  padding: 2em;
+}
+
+.skills-be, .skills-fe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 5em;
+}
+
+.skills-be button {
+  background-color: #555;
+  color: white;
+  margin: .25em;
+  padding: .5em 1em;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.skills-fe button {
+  background-color: #2c41ab;
+  color: GhostWhite;
+  margin: .25em;
+  padding: .5em 1em;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*========= Media Queries ===========*/
+
+@media screen and (max-width: 768px) {
+  .description { padding: 2em; }
+
+  .skills-section { padding: 2em 0; }
+  
+  .skills-be, .skills-fe { padding: 2em; }
+}
