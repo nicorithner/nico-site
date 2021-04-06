@@ -1,4 +1,11 @@
 .project { padding: 1em; }
+.project h2 { padding: 1em; }
+.project p {
+  padding: .25em;
+  line-height: 1.5em;
+}
+
+figure { width: min-content; }
 
 .description {
   width: 300px;
