@@ -1,5 +1,6 @@
 import React from "react"
 import Thumbnail from '../thumbnail/Thumbnail.js'; 
+import './Projects.css'
 import '../../App.css';
  
 function Projects(props) {
@@ -10,10 +11,11 @@ function Projects(props) {
         <Thumbnail
           key={i}
           id={project.id}
-          title={project.title}
-          link={project.link}
-          category={project.category}
           image={project.image}
+          title={project.title}
+          summary={project.summary}
+          category={project.category}
+          link={project.link}
         />
       );
     });
@@ -21,11 +23,16 @@ function Projects(props) {
 
 const projectCards = displayProjects();
 return (
-      <section className="projects">
-        <h1>Projects</h1>
-      <section className="course-container">{projectCards}</section>
-      </section>
-      );
+  <div className="projects">
+
+    <h1>Projects</h1>
+
+    <div className="card-container">
+      {projectCards}
+    </div>
+
+  </div>
+  );
 }
 
 export default Projects;
