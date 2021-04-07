@@ -16,6 +16,7 @@ function Projects(props) {
           summary={project.summary}
           category={project.category}
           link={project.link}
+          github={project.github}
         />
       );
     });
