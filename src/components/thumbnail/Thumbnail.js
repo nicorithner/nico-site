@@ -17,7 +17,7 @@ import '../../App.css';
         <Link to={props.link}>
           <div className="link">Project Details</div>
         </Link> 
-        <a rel="noreferrer" target="_blank" href="https://github.com/nicorithner"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="linkedin logo" /></a>
+        <a rel="noreferrer" target="_blank" href={props.github}><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="linkedin logo" /></a>
       </div>
      </div>
   )
