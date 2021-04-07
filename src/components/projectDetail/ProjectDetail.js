@@ -18,11 +18,11 @@ function ProjectDetail({project}) {
 
     <section className="section-2">
       <div className="text"> <p> {project.text2} </p></div>
-      <div className="pic"> <img src={project.pic1} alt="project display two" /></div>
+      <div className="pic"> <img src={project.pic2} alt="project display two" /></div>
     </section>
 
     <section className="section-3">
-      <div className="pic"> <img src={project.pic1} alt="project display two" /></div>
+      <div className="pic"> <img src={project.pic3} alt="project display two" /></div>
       <div className="text"> <p> {project.text2} </p></div>
     </section>
   </div>
