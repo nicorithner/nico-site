@@ -7,6 +7,13 @@
 .header img { 
   width: 100%;
 }
+  
+.header p {
+  text-align: right;
+  padding-right: 1rem;
+  font-size: .25em;
+  color: #888;
+}
 
 .section-1, .section-2, .section-3 {
   display: flex;
@@ -38,6 +45,7 @@
 
   .section-1, .section-2, .section-3 { flex-flow: column; }
   .header img { display: none; }
+  .header p { display: none; }
   .section-3 img { width: 100%; }
   .section-2 img { width: 100%; }
   .section-1 img { width: 100%; }

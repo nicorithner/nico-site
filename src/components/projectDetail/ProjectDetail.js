@@ -2,11 +2,13 @@ import React from 'react';
 import './ProjectDetail.css';
 
 function ProjectDetail({project}) {
+  console.log(project)
   return (
   <div className="project-container">
     <section className="header">
       <h1>{project.title}</h1>
       <img src={project.banner} alt="project banner" />
+      <p>{project.photocredit}</p>
     </section>
 
     <section className="section-1">
