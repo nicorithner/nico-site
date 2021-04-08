@@ -17,6 +17,11 @@ Things coming to mind are:
 
 ### Tech Specs
 
-App span using `create-react-app`
+- React:  using `create-react-app`
 
-npm 7.7.6
+- npm 7.7.6
+
+### Deployment
+
+- AWS Amplify [visit the deployed site](https://www.nicorithner.com)
+
