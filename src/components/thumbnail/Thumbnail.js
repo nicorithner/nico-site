@@ -6,7 +6,7 @@ import '../../App.css';
    return (
     <div className="project">
       <figure>
-        <img src={props.image} alt="Descriptive media" width="300" height="auto"/>
+        <img src={props.image} alt="Descriptive media" width="300" height="200"/>
         <figcaption>
           <h2>{props.title}</h2>
           <p className="summary">{props.summary}</p>

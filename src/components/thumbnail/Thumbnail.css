@@ -5,7 +5,14 @@
   line-height: 1.5em;
 }
 
-figure { width: min-content; }
+figure { 
+  width: min-content;
+}
+
+figure img { 
+  object-fit: cover; 
+  object-position: center top;
+}
 
 .description {
   width: 300px;
