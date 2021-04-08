@@ -2,7 +2,6 @@ import React from 'react';
 import './ProjectDetail.css';
 
 function ProjectDetail({project}) {
-  console.log(project)
   return (
   <div className="project-container">
     <section className="header">
