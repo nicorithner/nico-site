@@ -23,5 +23,5 @@ Things coming to mind are:
 
 ### Deployment
 
-- AWS Amplify [visit the deployed site](https://www.nicorithner.com)
+- AWS Amplify [www.nicorithner.com](https://www.nicorithner.com)
 
