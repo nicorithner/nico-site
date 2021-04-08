@@ -23,7 +23,7 @@ function ProjectDetail({project}) {
 
     <section className="section-3">
       <div className="pic"> <img src={project.pic3} alt="project display two" /></div>
-      <div className="text"> <p> {project.text2} </p></div>
+      <div className="text"> <p> {project.text3} </p></div>
     </section>
   </div>
   );
