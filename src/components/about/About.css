@@ -9,6 +9,18 @@
 
 .heading h2 { margin-top: -1em; }
 
+.resume { margin: 2em 0 1em 0; }
+
+.resume a {
+  background: #f4af1b;
+  padding: .75em;
+}
+
+.resume a:hover {
+  padding: 1em;
+  background: #e09a04;
+}
+
 .description {
   width: 100%;
   padding: 2em 5em 3em 5em;
