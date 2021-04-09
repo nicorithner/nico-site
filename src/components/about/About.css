@@ -12,13 +12,13 @@
 .resume { margin: 2em 0 1em 0; }
 
 .resume a {
-  background: #f4af1b;
+  background: black;
   padding: .75em;
 }
 
 .resume a:hover {
   padding: 1em;
-  background: #e09a04;
+  color: #f4af1b;
 }
 
 .description {
