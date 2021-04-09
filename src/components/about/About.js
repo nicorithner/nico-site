@@ -12,6 +12,10 @@ function About(props) {
        <div className="header"> <h1>Nico Rithner</h1></div>
         <h2>Software Developer</h2>
       </div>
+      
+      <div className="resume">
+        <a download href="../Nico-Rithner-Resume2021.pdf"> Download Resume </a>
+      </div>
 
       <div className="description">
         <p>
