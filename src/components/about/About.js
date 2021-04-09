@@ -14,7 +14,7 @@ function About(props) {
       </div>
       
       <div className="resume">
-        <a download href="../Nico-Rithner-Resume2021.pdf"> Download Resume </a>
+        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1g1-LvHG3SGtiV-aG4wQ82kpi62OFAEJi/view?usp=sharing"> Resume </a>
       </div>
 
       <div className="description">
