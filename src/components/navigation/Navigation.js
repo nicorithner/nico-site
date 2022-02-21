@@ -18,7 +18,6 @@ function Navigation() {
     <nav className="navbar">
       <Link to="/" className="nav-logo">
         <h1> Nico Rithner</h1>
-        <h5> Software Development </h5>
 			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
@@ -27,11 +26,6 @@ function Navigation() {
 				<li className="nav-item">
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Home
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/projects" className="nav-link" onClick={closeMenu}>
-						Projects
 					</Link>
 				</li>
 				<li className="nav-item">

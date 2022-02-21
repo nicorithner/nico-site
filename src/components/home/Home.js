@@ -6,7 +6,7 @@ function Home(props) {
    <div className="hero-container">
     
      <div className="hero-heading">
-      <h1> My Software Development Journey</h1>
+      <h1>Software Development</h1>
      </div>
 
      <div className="hero-image">
