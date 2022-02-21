@@ -14,7 +14,7 @@ function About(props) {
       </div>
       
       <div className="resume">
-        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1g1-LvHG3SGtiV-aG4wQ82kpi62OFAEJi/view?usp=sharing"> Resume </a>
+        <a rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing'> Resume </a>
       </div>
 
       <div className="description">
@@ -35,35 +35,33 @@ function About(props) {
       <div className="skills-section">
       <h2> Skills </h2>
         <div className="skills-be">
-          <button>Object Oriented Programming</button>
           <button>Ruby</button>
           <button>Ruby on Rails</button>
+          <button>JavaScript</button>
+          <button>React.js</button>
+          <button>Node.js</button>
+          <button>HTML5</button>
+          <button>CSS</button>
+        </div>
+
+        <div className="skills-be">
           <button>REST API</button>
-          <button>GraphQL API</button>
           <button>Test Driven Development</button>
-          <button>Rspec</button>
-          <button>Minitest</button>
-          <button>CircleCI</button>
-          <button>TravisCI</button>
           <button>SQL</button>
           <button>ActiveRecord</button>
           <button>PostgreSQL</button>
           <button>Git</button>
           <button>GitHub</button>
-          <button>Heroku</button>
-          <button>Wordpress</button>
           <button>AWS</button>
         </div>
 
         <h2> Currently Learning </h2>
 
         <div className="skills-fe">
+          <button>Rust</button>
           <button>JavaScript</button>
           <button>React.js</button>
-          <button>Redux</button>
           <button>Node.js</button>
-          <button>HTML5</button>
-          <button>CSS</button>
         </div>
         </div>
     </div>
