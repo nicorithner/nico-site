@@ -28,6 +28,11 @@ function Navigation() {
 						Home
 					</Link>
 				</li>
+        <li className="nav-item">
+					<Link to="/projects" className="nav-link" onClick={closeMenu}>
+						Projects
+					</Link>
+				</li>
 				<li className="nav-item">
 					<Link to="/contact" className="nav-link" onClick={closeMenu}>
 						Contact
