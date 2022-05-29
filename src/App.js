@@ -4,7 +4,6 @@ import Home from "./components/home/Home.js";
 import Projects from './components/projects/Projects.js';
 import ProjectDetail from './components/projectDetail/ProjectDetail.js';
 import Contact from "./components/contact/Contact.js";
-import About from "./components/about/About.js";
 import Navigation from "./components/navigation/Navigation.js";
 import { projects } from './projectList.js';
 import "./App.css";
@@ -32,7 +31,6 @@ function App() {
           }}
         />
         <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
       </div>
     </BrowserRouter>
   );

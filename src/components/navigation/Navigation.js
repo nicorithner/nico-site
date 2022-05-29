@@ -38,11 +38,6 @@ function Navigation() {
 						Contact
 					</Link>
 				</li>
-				<li className="nav-item">
-					<Link to="/about" className="nav-link" onClick={closeMenu}>
-						About
-					</Link>
-				</li>
 			</ul>
 		</nav>
   );
