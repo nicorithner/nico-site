@@ -1,4 +1,12 @@
-.container p { padding-bottom: 2rem; }
+.contact-container {
+  height: 100vh;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact-container p {
+  padding-bottom: 2rem;
+}
 
 .contact-links {
   display: flex;
