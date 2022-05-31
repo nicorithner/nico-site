@@ -8,49 +8,34 @@
   gap: 1em;
 }
 
-.heading h2 {
-  margin-top: -1em;
+.resume-download {
+  margin: 0.5em 0;
 }
 
-.resume {
-  margin: 2em 0 1em 0;
+.resume-download a {
+  padding: 0.5em;
 }
 
-.resume a {
-  padding: 0.75em;
-}
-
-.resume a:hover {
+.resume-download a:hover {
   color: #f4af1b;
 }
 
-.resume img:hover {
-  width: 102px;
-}
-
-.resume img {
+.resume-download img {
   width: 100px;
 }
 
-.about-description {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  padding: 2em;
+.resume-download img:hover {
+  width: 101px;
 }
 
-.about-description p {
-  font-size: 1em;
-  padding-bottom: 1em;
-  text-align: justify;
-}
-
-.skills-section, .about-description {
+/* ------- Skills Section ----- */
+.skills-section,
+.resume {
   width: 100%;
 }
 
 .skills-section {
-  background-color: #151A1E;
+  background-color: #151a1e;
   padding: 1em;
 }
 
