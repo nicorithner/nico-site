@@ -7,10 +7,10 @@
 }
 
 .hero-container img {
-  margin-top: 1em;
-  height: 70vh;
-  border-radius:50%;
-  object-fit: none;
+  max-width: 100%;
+  height: 50vh;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 .hero-heading {
