@@ -16,9 +16,6 @@ function Navigation() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="nav-logo">
-        <h1> Nico Rithner</h1>
-			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
