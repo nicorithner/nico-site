@@ -10,7 +10,8 @@ function Home() {
           <img src={"./images/nico-no-bg1000.png"} alt="Nico face" />
         </div>
         <div className="hero-heading">
-          <h1>Software Engineer</h1>
+          <h1>Nico Rithner</h1>
+          <h4>Software Engineer</h4>
         </div>
       </div>
       <About />
