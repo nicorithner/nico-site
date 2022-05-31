@@ -4,10 +4,6 @@ import './Contact.css'
 function Contact() {
   return (
     <div className="contact-container">
-      <div className="header">
-        <h1>Contact</h1>
-      </div>
-
       <p>nicorithner@gmail.com</p>
 
       <div className="contact-links">
