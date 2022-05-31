@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 .hero-container img {
@@ -22,3 +23,8 @@
 
 /*--------------- Media Queries -----------*/
 /*-----------------------------------------*/
+@media only screen and (max-width: 400px) {
+  .hero-heading h4{
+    font-size: 2rem;
+  }
+}
