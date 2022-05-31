@@ -17,7 +17,7 @@ function Home() {
         </div>
         <About />
       </div>
-      <footer className='footer--pin'></footer>
+      <footer className='footer--pin'>Nico Rithner © 2022</footer>
     </>
   );
 }
