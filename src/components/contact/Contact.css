@@ -3,8 +3,9 @@
   display: inline-block;
   vertical-align: top;
   font-size: 1.5em;
+  width: 100%;
   max-width: 100%;
-  background-color: #151a1e;
+  background-color: #101316;
 }
 
 .contact-container p {

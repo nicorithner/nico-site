@@ -1,27 +1,33 @@
-.project { padding: 1em; }
-.project h2 { padding: 1em; }
+.project {
+  padding: 1em;
+}
+.project h2 {
+  padding: 1em;
+}
 .project p {
-  padding: .25em;
+  padding: 0.25em;
   line-height: 1.5em;
 }
 
-figure { 
+figure {
   width: min-content;
 }
 
-figure img { 
-  object-fit: cover; 
+figure img {
+  object-fit: cover;
   object-position: center top;
 }
 
 .description {
   width: 300px;
-  padding: .5em 0 .5em 0;
+  padding: 0.5em 0 0.5em 0;
   text-align: left;
   color: #ccc;
 }
 
-.description h2 { padding: .5em 0 .5em 0; }
+.description h2 {
+  padding: 0.5em 0 0.5em 0;
+}
 
 .summary {
   font-size: 1em;
@@ -29,7 +35,7 @@ figure img {
 }
 
 .category {
-  font-size: .8em;
+  font-size: 0.8em;
   margin-bottom: 1em;
 }
 
@@ -40,18 +46,19 @@ figure img {
   gap: 1em;
 }
 
-.links p { color: #ccc; }
-.links a { 
-  padding: 5px 5px 5px 5px; 
+.links p {
+  color: #ccc;
+}
+.links a {
+  padding: 5px 5px 5px 5px;
   background: black;
 }
-.link { 
-  background: black; 
+.link {
+  background: black;
   padding: 6px;
   color: white;
 }
 
-.link:hover { color: #f4af1b; }
 .links a:hover {
-  padding: 10px;
+  border-bottom: 1px solid #edeeb3;
 }

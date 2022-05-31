@@ -16,8 +16,9 @@
   padding: 0.5em;
 }
 
-.resume-download a:hover {
-  color: #EDEEB3;
+.resume-download h4:hover {
+  color: #edeeb3;
+  border-bottom: 1px solid #edeeb3;
 }
 
 .resume-download img {
