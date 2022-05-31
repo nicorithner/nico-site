@@ -12,7 +12,6 @@ const Resume = () => {
         <br/>
         <p>Denver, CO USA - Trondheim, Norway</p>
         <p>nicorithner@gmail.com</p>
-
       </div>
 
       <div className="resume-section">
