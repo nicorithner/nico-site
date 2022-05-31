@@ -1,24 +1,12 @@
 import React from "react";
 
 import Resume from "../resume/Resume.js";
-import './About.css'
+import "./About.css";
 
 function About(props) {
   return (
     <div className="container">
-      <div className="resume-download">
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
-        ><h2>Resume</h2><br/>
-          <img
-            src="../images/pdf-icon.png"
-            alt="Pdf Icon"
-          />
-        </a>
-      </div>
-        <Resume />
+      <Resume />
 
       <div className="skills-section">
         <h2> Skills </h2>
@@ -47,6 +35,17 @@ function About(props) {
           <button>React.js</button>
           <button>Node.js</button>
         </div>
+      </div>
+      <div className="resume-download">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
+        >
+          <img src="../images/pdf-icon.png" alt="Pdf Icon" />
+          <br />
+          <h4>Download Resume</h4>
+        </a>
       </div>
     </div>
   );
