@@ -1,7 +1,11 @@
 .contact-container {
-  height: 100vh;
+  padding: 1em;
   display: inline-block;
   vertical-align: top;
+  font-size: 1.5em;
+  width: 100%;
+  max-width: 100%;
+  background-color: #101316;
 }
 
 .contact-container p {

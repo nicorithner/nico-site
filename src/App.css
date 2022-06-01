@@ -7,10 +7,10 @@
 
 .App {
   position: fixed;
-  overflow:auto;
+  overflow: auto;
   width: 100%;
   height: 100vh;
-  color: #fff;
+  color: lightslategray;
   text-align: center;
-  background: #151a1e;
+  background: #101316;
 }
