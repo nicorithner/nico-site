@@ -7,16 +7,10 @@
 
 .App {
   position: fixed;
-  overflow:auto;
+  overflow: auto;
   width: 100%;
   height: 100vh;
-  color: #fff;
+  color: lightslategray;
   text-align: center;
-  background: #151a1e;
+  background: #101316;
 }
-
-.header h1 {
-  font-size: 3em;
-  margin: 1em 0 1em 0;
-}
-

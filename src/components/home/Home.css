@@ -1,5 +1,6 @@
 .main {
   width: 100%;
+  min-height: calc(100vh - 3em);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,10 +22,22 @@
   max-width: 95%;
 }
 
+.footer--pin {
+  background-color: #151a1e;
+  height: 5em;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2em 0;
+
+}
+
 /*--------------- Media Queries -----------*/
 /*-----------------------------------------*/
 @media only screen and (max-width: 400px) {
-  .hero-heading h4{
+  .hero-heading h4 {
     font-size: 2rem;
   }
 }
