@@ -1,5 +1,5 @@
 .project {
-  padding: 1em;
+  max-width: 100%;
 }
 .project h2 {
   padding: 1em;
@@ -10,11 +10,13 @@
 }
 
 figure {
-  width: min-content;
+  width: 100%;
+  max-width: 100%;
 }
 
 figure img {
   object-fit: cover;
+  max-width: 100%;
   object-position: center top;
 }
 
