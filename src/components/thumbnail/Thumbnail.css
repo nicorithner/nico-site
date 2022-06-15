@@ -1,5 +1,5 @@
 .project {
-  padding: 1em;
+  max-width: 100%;
 }
 .project h2 {
   padding: 1em;
@@ -9,13 +9,15 @@
   line-height: 1.5em;
 }
 
-figure {
-  width: min-content;
+figure img {
+  width: 400px;
+  height: 300px;
+  max-width: 100%;
 }
 
-figure img {
-  object-fit: cover;
-  object-position: center top;
+figcaption {
+  width: 400px;
+  max-width: 100%;
 }
 
 .description {

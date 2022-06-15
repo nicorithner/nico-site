@@ -5,11 +5,23 @@ const Resume = () => {
     <div className="resume-main">
       <h1>Resume</h1>
 
+      <div className="resume-download">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
+        >
+          <img src="../images/pdf-icon.png" alt="Pdf Icon" />
+          <h4>Download</h4>
+          <br />
+        </a>
+      </div>
+
       <div className="resume-section">
         <h2>Nicolas Rithner</h2>
         <hr />
         <h3>Software Engineer</h3>
-        <br/>
+        <br />
         <p>Denver, CO USA - Trondheim, Norway</p>
         <p>nicorithner@gmail.com</p>
       </div>

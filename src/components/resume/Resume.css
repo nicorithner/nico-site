@@ -32,3 +32,26 @@ hr {
   background-color: #666;
   opacity: 0.5;
 }
+
+.resume-download {
+  margin: 1em 0;
+}
+
+.resume-download a {
+  padding: 0.5em;
+}
+
+.resume-download h4:hover {
+  color: #edeeb3;
+  border-bottom: 1px solid #edeeb3;
+}
+
+.resume-download img {
+  margin: auto;
+  width: 50px;
+}
+
+.resume-download img:hover {
+  width: 51px;
+}
+
