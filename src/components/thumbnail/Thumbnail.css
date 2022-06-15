@@ -12,10 +12,12 @@
 figure img {
   width: 400px;
   height: 300px;
+  max-width: 100%;
 }
 
 figcaption {
   width: 400px;
+  max-width: 100%;
 }
 
 .description {
