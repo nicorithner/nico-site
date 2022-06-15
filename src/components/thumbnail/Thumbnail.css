@@ -9,15 +9,13 @@
   line-height: 1.5em;
 }
 
-figure {
-  width: 100%;
-  max-width: 100%;
+figure img {
+  width: 400px;
+  height: 300px;
 }
 
-figure img {
-  object-fit: cover;
-  max-width: 100%;
-  object-position: center top;
+figcaption {
+  width: 400px;
 }
 
 .description {
