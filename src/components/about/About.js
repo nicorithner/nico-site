@@ -36,17 +36,6 @@ function About(props) {
           <button>Node.js</button>
         </div>
       </div>
-      <div className="resume-download">
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
-        >
-          <img src="../images/pdf-icon.png" alt="Pdf Icon" />
-          <br />
-          <h4>Download Resume</h4>
-        </a>
-      </div>
     </div>
   );
 }

@@ -8,27 +8,6 @@
   gap: 1em;
 }
 
-.resume-download {
-  margin: 0.5em 0;
-}
-
-.resume-download a {
-  padding: 0.5em;
-}
-
-.resume-download h4:hover {
-  color: #edeeb3;
-  border-bottom: 1px solid #edeeb3;
-}
-
-.resume-download img {
-  width: 50px;
-}
-
-.resume-download img:hover {
-  width: 51px;
-}
-
 /* ------- Skills Section ----- */
 .skills-section,
 .resume {
