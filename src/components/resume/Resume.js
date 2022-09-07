@@ -12,17 +12,15 @@ const Resume = () => {
           href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
         >
           <img src="../images/pdf-icon.png" alt="Pdf Icon" />
-          <h4>Download</h4>
+          <h4>Get PDF</h4>
           <br />
         </a>
       </div>
 
       <div className="resume-section">
-        <h2>Nicolas Rithner</h2>
+        <h2>Nicolas Rithner - Software Engineer</h2>
         <hr />
-        <h3>Software Engineer</h3>
-        <br />
-        <p>Denver, CO USA - Trondheim, Norway</p>
+        <p>Denver, CO USA</p>
         <p>nicorithner@gmail.com</p>
       </div>
 
@@ -44,15 +42,15 @@ const Resume = () => {
             <ul>
               <li>
                 <span>🇺🇸</span>
-                <strong>English</strong>: native level
+                <strong> - English</strong>: native level
               </li>
               <li>
                 <span>🇪🇸</span>
-                <strong>Spanish</strong>: native level
+                <strong> - Spanish</strong>: native level
               </li>
               <li>
                 <span>🇳🇴</span>
-                <strong>Norwegian</strong>: A2 - currently studying.
+                <strong> - Norwegian</strong>: Intermediate - Level B1 - currently studying.
               </li>
             </ul>
           </li>
@@ -65,9 +63,9 @@ const Resume = () => {
         <h3>Altvia Solutions</h3>
         <small>Fintech</small>
         <small>Broomfield, CO</small>
-        <small>June 2021 - Present</small>
+        <small>June 2021 - September 2022</small>
         <br />
-        <h4>Full Time Full Stack Engineer</h4>
+        <h4>Software Engineer</h4>
         <p>Responsibilites:</p>
         <ul>
           <li>
