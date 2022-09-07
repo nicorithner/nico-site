@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import About from "../about/About.js";
 import Contact from "../contact/Contact.js";
+import Resume from "../resume/Resume";
 
 function Home() {
   return (
@@ -16,10 +17,11 @@ function Home() {
             <h4>Software Engineer</h4>
           </div>
         </div>
-        <Contact />
         <About />
+        <Contact />
+        <Resume />
       </div>
-      <footer className='footer--pin'>Nico Rithner © 2022</footer>
+      <footer className="footer--pin">Nico Rithner © 2022</footer>
     </>
   );
 }
