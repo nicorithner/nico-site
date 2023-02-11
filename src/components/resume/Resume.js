@@ -9,7 +9,7 @@ const Resume = () => {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://drive.google.com/file/d/10JHR-gfGL7a0x8slwTT2ikRth2cFx4Ch/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ncNRoWOo-jnHhANPa7lrZU7r2TUMZMAh/view?usp=share_link"
         >
           <img src="../images/pdf-icon.png" alt="Pdf Icon" />
           <h4>Get PDF</h4>
