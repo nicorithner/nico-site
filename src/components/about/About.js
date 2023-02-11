@@ -8,13 +8,13 @@ function About(props) {
       <div className="skills-section">
         <h2> Skills </h2>
         <div className="skills-be">
-          <button>Ruby</button>
+          <button>ReactJS</button>
+          <button>NodeJS</button>
           <button>JavaScript</button>
+          <button>Ruby on Rails</button>
+          <button>Ruby</button>
           <button>CSS</button>
           <button>SQL</button>
-          <button>Ruby on Rails</button>
-          <button>NodeJS</button>
-          <button>React</button>
           <button>PostgreSQL</button>
         </div>
       </div>
