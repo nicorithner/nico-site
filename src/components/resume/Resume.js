@@ -4,7 +4,6 @@ const Resume = () => {
   return (
     <div className="resume-main">
       <h1>Resume</h1>
-
       <div className="resume-download">
         <a
           rel="noreferrer"
@@ -16,14 +15,12 @@ const Resume = () => {
           <br />
         </a>
       </div>
-
       <div className="resume-section">
         <h2>Nicolas Rithner - Software Engineer</h2>
         <hr />
         <p>Denver, CO USA</p>
         <p>nicorithner@gmail.com</p>
       </div>
-
       <div className="resume-section">
         <h2>Summary</h2>
         <hr />
@@ -50,17 +47,45 @@ const Resume = () => {
               </li>
               <li>
                 <span>🇳🇴</span>
-                <strong> - Norwegian</strong>: Intermediate - Level B1 - currently studying.
+                <strong> - Norwegian</strong>: Intermediate - Level B1 -
+                currently studying.
               </li>
             </ul>
           </li>
         </ul>
       </div>
-
+      2022 to Feb. 2023 � Denver, CO Responsibilities: Stack: Ruby on Rails
+      ReactJS
       <div className="resume-section">
         <h2>Work Experience</h2>
         <hr />
-        <h3>Altvia Solutions</h3>
+        <h3>PRODUCTPLAN</h3>
+        <small>Productivity Tool</small>
+        <small>Denver, CO</small>
+        <small>October 2022 - February 2023</small>
+        <br />
+        <h4>Full Stack Software Engineer</h4>
+        <p>Responsibilites:</p>
+        <ul>
+          <li>
+            Development of new features. Integrations team Highlight: Worked as
+            part of a small team of developers contributing to the addition of
+            new features to the app integration with Azure DevOps
+          </li>
+          <li>
+            Maintenance of the existing code base, including updates and
+            debugging
+          </li>
+          <li>Merge Requests reviews</li>
+        </ul>
+        <p>Stack:</p>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>ReactJS</li>
+          <li>Github</li>
+        </ul>
+        <hr />
+        <h3>ALTVIA SOLUTIONS</h3>
         <small>Fintech</small>
         <small>Broomfield, CO</small>
         <small>June 2021 - September 2022</small>
@@ -86,7 +111,6 @@ const Resume = () => {
           <li>Cloud 66</li>
         </ul>
       </div>
-
       <div className="resume-section">
         <h2>Education</h2>
         <hr />
