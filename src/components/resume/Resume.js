@@ -59,6 +59,18 @@ const Resume = () => {
       <div className="resume-section">
         <h2>Work Experience</h2>
         <hr />
+        <h3> BOOZ ALLEN HAMILTON</h3>
+        <small>VA Benefits</small>
+        <small>Denver, CO USA</small>
+        <small>October 2023 to Current </small>
+        <br />
+        <h4>Back End Software Engineer</h4>
+        <p>Stack:</p>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>AWS</li>
+        </ul>
+        <hr />
         <h3>PRODUCTPLAN</h3>
         <small>Productivity Tool</small>
         <small>Denver, CO</small>
