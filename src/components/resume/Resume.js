@@ -54,8 +54,7 @@ const Resume = () => {
           </li>
         </ul>
       </div>
-      2022 to Feb. 2023 � Denver, CO Responsibilities: Stack: Ruby on Rails
-      ReactJS
+
       <div className="resume-section">
         <h2>Work Experience</h2>
         <hr />
@@ -68,11 +67,12 @@ const Resume = () => {
         <p>Stack:</p>
         <ul>
           <li>Ruby on Rails</li>
+          <li>React</li>
           <li>AWS</li>
         </ul>
         <hr />
-        <h3>PRODUCTPLAN</h3>
-        <small>Productivity Tool</small>
+        <h3>PRODUCTIVIY TOOL APP</h3>
+        <small>Productivity tool app focused on lifetime of products</small>
         <small>Denver, CO</small>
         <small>October 2022 - February 2023</small>
         <br />
